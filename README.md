@@ -11,3 +11,11 @@ The Bookstore API is a backend solution designed to facilitate the management of
         <li> Data Generation: Utilize Faker to generate dummy data for testing purposes, ensuring realistic scenarios. </li>
         <li> Pagination: Handle large datasets efficiently with pagination support. </li>
 </ul>
+
+# Technologies Used
+Laravel: Backend framework providing robustness and scalability.
+Faker: PHP library for generating fake data, facilitating testing.
+Sanctum : For Authentication
+
+# Installation
+Clone the repository: <code>git clone https://github.com/your-username/bookstore-api.git </code>
