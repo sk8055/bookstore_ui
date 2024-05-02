@@ -19,3 +19,41 @@ Sanctum : For Authentication
 
 # Installation
 Clone the repository: <code>git clone https://github.com/your-username/bookstore-api.git </code>
+Install dependencies: : <code> composer install </code>
+
+# Set up environment variables:
+<ul>
+        <li>Copy the .env.example file and rename it to .env.</li>
+        <li>Configure database and other environment variables in the .env file.</li>
+</ul>
+
+# Run migrations:
+<ul>
+        <li>php artisan migrate </li>
+</ul>
+
+# Serve the application:
+<ul>
+        <li>php artisan serve </li>
+</ul>
+
+# Usage
+
+<h5>Use API endpoints to interact with the bookstore:</h5>
+<ul>
+        <li> GET /api/books: List all books. </li>
+        <li> POST /api/books: Create a new book. </li>
+        <li> GET /api/orders: List user orders. </li>
+        <li> POST /api/orders: Place a new order. </li>
+        <li> DELETE /api/orders/{id}: Cancel an order. </li
+</ul>
+
+# Contributing
+Contributions are welcome! Feel free to submit issues or pull requests.
+
+# License
+This project is licensed under the MIT License.
+
+
+
+
